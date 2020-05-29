@@ -92,7 +92,7 @@ class BaseGrader:
         input_data, want = test_case
         reps = []
         for value in [input_data, got, want]:
-            if type(value) in {list, str, tuple}:
+            if type(value) in {list, tuple}:
                 reps.append(self._truncate_value(value))
             else:
                 reps.append(str(value))
