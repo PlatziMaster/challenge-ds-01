@@ -8,7 +8,8 @@ class Solution:
 
     def analyze_books(self, books_dataset: str) -> Tuple[int, int, int]:
         """Returns the n-th fibonacci number."""
+        books_count = 0
         with open(books_dataset, "r") as bds:
-            for line in bds.readlines():
-                print(line)
-        return (1, 2, 3)
+            for _ in bds.readlines():
+                books_count += 1
+        return (1, 2, books_count)
