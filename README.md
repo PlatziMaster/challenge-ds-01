@@ -31,3 +31,7 @@ class Solution:
 **Notes:**
 
 * Please make your code reusable and readable. Avoid leaving debugging instructions within your solution.
+
+## Troubleshooting
+
+Look at *solution* under `solutions/pablotrinidad` for examples and Jupyter Notebook+Python module inter operation.
